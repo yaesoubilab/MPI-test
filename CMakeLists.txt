@@ -14,8 +14,9 @@ find_package(Boost REQUIRED)
 find_package(MPI REQUIRED COMPONENTS CXX)
 
 # Set source files
-set(src_primes primes.cpp)
-set(src_hello hello_world.cpp)
+set(src_path src)
+set(src_primes ${src_path}/primes.cpp)
+set(src_hello ${src_path}/hello_world.cpp)
 
 # include_directories(${Boost_INCLUDE_DIRS})
 
